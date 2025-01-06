@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .gallery-item img {
+            width: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Galeri</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pantai_masirete.jpg" class="img-fluid" alt="Gambar 1">
+                    <div class="caption">
+                        "Momen Lebaran yang penuh kebahagiaan di Pantai Masirete."
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pnltian.jpg" class="img-fluid" alt="Gambar 2">
+                    <div class="caption">
+                        "Ilustrasi dari penelitian tentang penegakan hukum pelanggaran lalu lintas, fokus pada efektivitas pengendalian pelanggaran motor tanpa helm."
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="spppu.jpg" class="img-fluid" alt="Gambar 3">
+                    <div class="caption">Momen indah bersama sepupu, penuh tawa dan kebahagiaan.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; 2024 Refalina Darwin</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
